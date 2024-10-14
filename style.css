@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(239, 69, 26, 0.575);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image:url(gog.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:20px 40px 20px 40px;
+    padding:30px 90px 70px 90px;
+    width: 600px;
+   
+    
+}
+.as{
+    color:white;
+    margin-bottom: 20px;
+}
+.intro{
+    text-align: center;
+}
+h3{
+    font-size: 34px;
+}
+p{
+    font-size: 8px
+}
+h2{
+    font-size: 42px;
+    color:white;
+    background-clip: text;
+    
+}
+.day{
+    background-color: rgb(255, 255, 255); 
+    margin:5px;
+    width:60px;
+    height:90px;
+    border-radius: 3%;
+    
+}
+.hours{
+    background-color: white;
+    margin:5px;
+    width:60px;
+    height:90px;
+    border-radius: 3%;
+   
+   
+}
+.minutes{
+    background-color: white;
+    margin:5px;
+    width:60px;
+    height:90px;
+    border-radius: 3%;
+    
+}
+.secund{
+    background-color: white;
+    margin:5px;
+    width:60px;
+    height:90px;
+    border-radius: 3%;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(135, 64, 22)
+}
